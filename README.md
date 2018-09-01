@@ -1,7 +1,7 @@
 # emailParser
 A Node.js script that can parse a Jquery element of a page, then e-mail an account with changes.
 
-Use Case: When you have a SMTP Mail Server that you want to use with Node.js, and you want to parse out a page with certain content (Such as a Jquery Div changing) to notify your e-mail. For example,
+Use Case: When you have a SMTP Mail Server that you want to use with Node.js, and you want to parse out a page with certain content (Such as a Jquery Div text content changing) to notify your e-mail. For example,
 you have a SMTP Mail Server With Linux and you run a CRON job that fires this script every 20 minutes, and e-mails you with the change. This can be helpful for different Ticket pages (Such as a PAX or Sporting Event)
 you want to monitor and having it e-mail you when Registration opens, for example.
 
